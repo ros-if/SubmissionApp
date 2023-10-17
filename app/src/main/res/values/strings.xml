@@ -8,26 +8,26 @@
     <string-array name="data_name">
         <item>Paper Bag Kraft Brown</item>
         <item>Paper Bag Warna-warni</item>
-        <item>Paper Bag dengan Cetak Logo</item>
+        <item>Paper Bag Spesial Religi </item>
         <item>Paper Bag Bergambar Anak-anak</item>
-        <item> Paper Bag Vintage</item>
+        <item>Paper Bag Vintage</item>
         <item>Paper Bag Lipat</item>
         <item>Paper Bag Bahan Daur Ulang</item>
         <item>Paper Bag Promosi</item>
         <item>Paper Bag dengan Penutup</item>
-        <item> Paper Bag Teranyam</item>
+        <item>Paper Bag Teranyam</item>
     </string-array>
     <string-array name="data_description">
-        <item>Paper bag Kraft Brown adalah pilihan yang ramah lingkungan untuk berbelanja. Terbuat dari kertas tebal, tahan air, dan dapat digunakan kembali, paper bag ini sangat kuat dan cocok untuk penggunaan berulang.</item>
-        <item>Paper bag dengan berbagai warna menambah keseruan berbelanja. Dari merah cerah hingga biru laut, Anda dapat memilih paper bag sesuai dengan preferensi gaya Anda.</item>
-        <item>Paper bag dengan logo atau merek Anda menciptakan identitas brand yang kuat. Mereka digunakan oleh banyak perusahaan untuk mempromosikan merek mereka dengan elegan.</item>
-        <item>Paper bag dengan gambar anak-anak adalah pilihan sempurna untuk pesta ulang tahun anak-anak. Mereka dapat diisi dengan hadiah dan makanan ringan.</item>
-        <item>Paper bag bergaya vintage memberikan sentuhan klasik saat berbelanja. Mereka sering digunakan di toko-toko antik dan butik fashion retro.</item>
-        <item>Paper bag lipat adalah pilihan praktis untuk berbelanja. Mereka bisa dilipat ke dalam ukuran yang sangat kecil, mudah disimpan di tas atau saku.</item>
-        <item>Paper bag yang terbuat dari bahan daur ulang membantu mendukung lingkungan. Mereka mengurangi limbah plastik dan membantu menjaga alam.</item>
-        <item>Paper bag promosi adalah cara yang elegan untuk membagikan hadiah. Mereka sering digunakan dalam acara perusahaan dan promosi produk.</item>
-        <item>Paper bag dengan penutup adalah pilihan yang aman dan terjaga. Mereka cocok untuk membungkus makanan dan barang-barang berharga.</item>
-        <item>Paper bag teranyam memberikan tampilan unik dan bergaya. Mereka sering digunakan untuk kerajinan tangan dan hadiah spesial.</item>
+        <item>Paper bag Kraft Brown adalah pilihan yang ramah lingkungan untuk berbelanja.</item>
+        <item>Paper bag dengan berbagai warna menambah keseruan berbelanja.</item>
+        <item>Paper bag dengan tema acara spesial religi.</item>
+        <item>Paper bag dengan gambar anak-anak adalah pilihan sempurna untuk pesta ulang tahun anak-anak.</item>
+        <item>Paper bag bergaya vintage memberikan sentuhan klasik saat berbelanja.</item>
+        <item>Paper bag lipat adalah pilihan praktis untuk berbelanja.</item>
+        <item>Paper bag yang terbuat dari bahan daur ulang membantu mendukung lingkungan.</item>
+        <item>Paper bag promosi adalah cara yang elegan untuk membagikan hadiah.</item>
+        <item>Paper bag dengan penutup adalah pilihan yang aman dan terjaga.</item>
+        <item>Paper bag teranyam memberikan tampilan unik dan bergaya.</item>
     </string-array>
     <integer-array name="data_photo">
         <item>@drawable/paperbag_1</item>
