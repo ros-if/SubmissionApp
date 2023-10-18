@@ -1,5 +1,6 @@
 package com.dicoding.submissionapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -12,9 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 class MainActivity : AppCompatActivity() {
     private lateinit var rvProducts: RecyclerView
     private val list = ArrayList<Product>()
-    private fun showSelectedProduct(product: Product) {
-        Toast.makeText(this, "Kamu memilih " + product.name, Toast.LENGTH_SHORT).show()
-    }
+    private lateinit var listProductAdapter: ListProductAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,18 +52,25 @@ class MainActivity : AppCompatActivity() {
             val product = Product(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1))
             listProduct.add(product)
         }
+        dataPhoto.recycle()
         return listProduct
     }
 
     private fun showRecyclerList() {
         rvProducts.layoutManager = LinearLayoutManager(this)
-        val listProductAdapter = ListProductAdapter(list)
+        listProductAdapter = ListProductAdapter(list)
         rvProducts.adapter = listProductAdapter
 
         listProductAdapter.setOnItemClickCallback(object : ListProductAdapter.OnItemClickCallback{
             override fun onItemClicked(data: Product) {
-                showSelectedProduct(data)
+                navigateToDetailActivity(data)
             }
         })
+    }
+
+    private fun navigateToDetailActivity(product: Product) {
+        val intent = Intent(this, DetailActivity::class.java)
+        intent.putExtra("product", product)
+        startActivity(intent)
     }
 }

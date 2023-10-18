@@ -5,6 +5,10 @@
     <string name="description">Deskripsi</string>
     <string name="list">List</string>
     <string name="grid">Grid</string>
+    <string name="product_image">Product Image</string>
+    <string name="product_title">Product Title</string>
+    <string name="product_description">Product Description</string>
+    <string name="image_view">Image View</string>
     <string-array name="data_name">
         <item>Paper Bag Kraft Brown</item>
         <item>Paper Bag Warna-warni</item>
