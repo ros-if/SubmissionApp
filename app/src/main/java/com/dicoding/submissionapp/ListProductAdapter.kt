@@ -7,7 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class ListProductAdapter(private val listProduct: ArrayList<Product>) : RecyclerView.Adapter<ListProductAdapter.ListViewHolder>() {
+class ListProductAdapter(private val listProduct: ArrayList<Product>, private val isListMode: Boolean) : RecyclerView.Adapter<ListProductAdapter.ListViewHolder>() {
     private lateinit var onItemClickCallback: OnItemClickCallback
 
     fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
@@ -23,7 +23,14 @@ class ListProductAdapter(private val listProduct: ArrayList<Product>) : Recycler
         val (name, description, photo) = listProduct[position]
         holder.imgPhoto.setImageResource(photo)
         holder.tvName.text = name
-        holder.tvDescription.text = description
+
+        if (isListMode) {
+            holder.tvDescription.text = description
+            holder.tvDescription.visibility = View.VISIBLE
+        } else {
+            holder.tvDescription.visibility = View.GONE
+        }
+
         holder.itemView.setOnClickListener { onItemClickCallback.onItemClicked(listProduct[holder.adapterPosition]) }
     }
 

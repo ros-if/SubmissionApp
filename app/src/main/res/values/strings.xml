@@ -9,6 +9,14 @@
     <string name="product_title">Product Title</string>
     <string name="product_description">Product Description</string>
     <string name="image_view">Image View</string>
+    <string name="product_image_1">Product Image 1</string>
+    <string name="product_image_2">Product Image 2</string>
+    <string name="about">About</string>
+    <string name="nama_anda">Nama Anda</string>
+    <string name="email_anda">Email Anda</string>
+    <string name="foto_anda">Foto Anda</string>
+    <string name="email">roshif.abdillah@gmail.com</string>
+    <string name="nama">ROSHIFUDDIN ABDILLAH</string>
     <string-array name="data_name">
         <item>Paper Bag Kraft Brown</item>
         <item>Paper Bag Warna-warni</item>

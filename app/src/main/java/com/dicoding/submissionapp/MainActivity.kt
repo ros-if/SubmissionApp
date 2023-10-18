@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -39,6 +38,10 @@ class MainActivity : AppCompatActivity() {
             R.id.action_grid -> {
                 rvProducts.layoutManager = GridLayoutManager(this, 2)
             }
+            R.id.action_about -> {
+                navigateToAboutActivity()
+                return true
+            }
         }
         return super.onOptionsItemSelected(item)
     }
@@ -58,7 +61,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun showRecyclerList() {
         rvProducts.layoutManager = LinearLayoutManager(this)
-        listProductAdapter = ListProductAdapter(list)
+        listProductAdapter = ListProductAdapter(list, true)
         rvProducts.adapter = listProductAdapter
 
         listProductAdapter.setOnItemClickCallback(object : ListProductAdapter.OnItemClickCallback{
@@ -71,6 +74,11 @@ class MainActivity : AppCompatActivity() {
     private fun navigateToDetailActivity(product: Product) {
         val intent = Intent(this, DetailActivity::class.java)
         intent.putExtra("product", product)
+        startActivity(intent)
+    }
+
+    private fun navigateToAboutActivity() {
+        val intent = Intent(this, AboutActivity::class.java)
         startActivity(intent)
     }
 }
