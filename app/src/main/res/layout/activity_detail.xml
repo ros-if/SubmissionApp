@@ -14,18 +14,18 @@
         <ImageView
             android:id="@+id/detailImageView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="200dp"
             android:contentDescription="@string/product_image_1"
-            android:scaleType="centerCrop" />
+            android:scaleType="fitCenter" />
 
         <TextView
             android:id="@+id/detailTitleTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:text="@string/product_title"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:text="@string/product_title" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/detailDescriptionTextView"
@@ -33,6 +33,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="@string/product_description" />
+
+        <Button
+            android:id="@+id/action_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="@string/share" />
 
     </LinearLayout>
 </ScrollView>

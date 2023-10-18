@@ -17,6 +17,8 @@
     <string name="photo">Photo</string>
     <string name="my_email">roshif.abdillah@gmail.com</string>
     <string name="my_name">ROSHIFUDDIN ABDILLAH</string>
+    <string name="share">Share</string>
+    <string name="splash">Splash</string>
     <string-array name="data_name">
         <item>Paper Bag Kraft Brown</item>
         <item>Paper Bag Warna-warni</item>
@@ -30,16 +32,16 @@
         <item>Paper Bag Teranyam</item>
     </string-array>
     <string-array name="data_description">
-        <item>Paper bag Kraft Brown adalah pilihan yang ramah lingkungan untuk berbelanja.</item>
-        <item>Paper bag dengan berbagai warna menambah keseruan berbelanja.</item>
-        <item>Paper bag dengan tema acara spesial religi.</item>
-        <item>Paper bag dengan gambar anak-anak adalah pilihan sempurna untuk pesta ulang tahun anak-anak.</item>
-        <item>Paper bag bergaya vintage memberikan sentuhan klasik saat berbelanja.</item>
-        <item>Paper bag lipat adalah pilihan praktis untuk berbelanja.</item>
-        <item>Paper bag yang terbuat dari bahan daur ulang membantu mendukung lingkungan.</item>
-        <item>Paper bag promosi adalah cara yang elegan untuk membagikan hadiah.</item>
-        <item>Paper bag dengan penutup adalah pilihan yang aman dan terjaga.</item>
-        <item>Paper bag teranyam memberikan tampilan unik dan bergaya.</item>
+        <item>Paper bag Kraft Brown adalah pilihan yang ramah lingkungan untuk berbelanja. Paper bag Kraft Brown adalah pilihan yang ramah lingkungan untuk berbelanja.Paper bag Kraft Brown adalah pilihan yang ramah lingkungan untuk berbelanja.Paper bag Kraft Brown adalah pilihan yang ramah lingkungan untuk berbelanja.</item>
+        <item>Paper bag dengan berbagai warna menambah keseruan berbelanja.Paper bag dengan berbagai warna menambah keseruan berbelanja.Paper bag dengan berbagai warna menambah keseruan berbelanja.Paper bag dengan berbagai warna menambah keseruan berbelanja.Paper bag dengan berbagai warna menambah keseruan berbelanja.</item>
+        <item>Paper bag dengan tema acara spesial religi.Paper bag dengan tema acara spesial religi.Paper bag dengan tema acara spesial religi.Paper bag dengan tema acara spesial religi.Paper bag dengan tema acara spesial religi.Paper bag dengan tema acara spesial religi.Paper bag dengan tema acara spesial religi.</item>
+        <item>Paper bag dengan gambar anak-anak adalah pilihan sempurna untuk pesta ulang tahun anak-anak.Paper bag dengan gambar anak-anak adalah pilihan sempurna untuk pesta ulang tahun anak-anak.Paper bag dengan gambar anak-anak adalah pilihan sempurna untuk pesta ulang tahun anak-anak.</item>
+        <item>Paper bag bergaya vintage memberikan sentuhan klasik saat berbelanja.Paper bag bergaya vintage memberikan sentuhan klasik saat berbelanja.Paper bag bergaya vintage memberikan sentuhan klasik saat berbelanja.Paper bag bergaya vintage memberikan sentuhan klasik saat berbelanja.</item>
+        <item>Paper bag lipat adalah pilihan praktis untuk berbelanja.Paper bag lipat adalah pilihan praktis untuk berbelanja.Paper bag lipat adalah pilihan praktis untuk berbelanja.Paper bag lipat adalah pilihan praktis untuk berbelanja.Paper bag lipat adalah pilihan praktis untuk berbelanja.Paper bag lipat adalah pilihan praktis untuk berbelanja.</item>
+        <item>Paper bag yang terbuat dari bahan daur ulang membantu mendukung lingkungan.Paper bag yang terbuat dari bahan daur ulang membantu mendukung lingkungan.Paper bag yang terbuat dari bahan daur ulang membantu mendukung lingkungan.Paper bag yang terbuat dari bahan daur ulang membantu mendukung lingkungan.</item>
+        <item>Paper bag promosi adalah cara yang elegan untuk membagikan hadiah.Paper bag promosi adalah cara yang elegan untuk membagikan hadiah.Paper bag promosi adalah cara yang elegan untuk membagikan hadiah.Paper bag promosi adalah cara yang elegan untuk membagikan hadiah.Paper bag promosi adalah cara yang elegan untuk membagikan hadiah.</item>
+        <item>Paper bag dengan penutup adalah pilihan yang aman dan terjaga. Paper bag dengan penutup adalah pilihan yang aman dan terjaga.Paper bag dengan penutup adalah pilihan yang aman dan terjaga.Paper bag dengan penutup adalah pilihan yang aman dan terjaga.Paper bag dengan penutup adalah pilihan yang aman dan terjaga.</item>
+        <item>Paper bag teranyam memberikan tampilan unik dan bergaya. Paper bag teranyam memberikan tampilan unik dan bergaya.Paper bag teranyam memberikan tampilan unik dan bergaya.Paper bag teranyam memberikan tampilan unik dan bergaya.Paper bag teranyam memberikan tampilan unik dan bergaya.</item>
     </string-array>
     <integer-array name="data_photo">
         <item>@drawable/paperbag_1</item>
