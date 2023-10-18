@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">SubmissionApp</string>
 
-    <string name="products_name">Nama Produk</string>
-    <string name="description">Deskripsi</string>
+    <string name="products_name">Product Name</string>
+    <string name="description">Description</string>
     <string name="list">List</string>
     <string name="grid">Grid</string>
     <string name="product_image">Product Image</string>
@@ -12,11 +12,11 @@
     <string name="product_image_1">Product Image 1</string>
     <string name="product_image_2">Product Image 2</string>
     <string name="about">About</string>
-    <string name="nama_anda">Nama Anda</string>
-    <string name="email_anda">Email Anda</string>
-    <string name="foto_anda">Foto Anda</string>
-    <string name="email">roshif.abdillah@gmail.com</string>
-    <string name="nama">ROSHIFUDDIN ABDILLAH</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="photo">Photo</string>
+    <string name="my_email">roshif.abdillah@gmail.com</string>
+    <string name="my_name">ROSHIFUDDIN ABDILLAH</string>
     <string-array name="data_name">
         <item>Paper Bag Kraft Brown</item>
         <item>Paper Bag Warna-warni</item>

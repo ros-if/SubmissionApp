@@ -32,15 +32,15 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
+            R.id.about_page -> {
+                navigateToAboutActivity()
+                return true
+            }
             R.id.action_list -> {
                 rvProducts.layoutManager = LinearLayoutManager(this)
             }
             R.id.action_grid -> {
                 rvProducts.layoutManager = GridLayoutManager(this, 2)
-            }
-            R.id.action_about -> {
-                navigateToAboutActivity()
-                return true
             }
         }
         return super.onOptionsItemSelected(item)

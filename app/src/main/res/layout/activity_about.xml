@@ -22,7 +22,7 @@
                 android:layout_height="200dp"
                 android:layout_centerHorizontal="true"
                 app:srcCompat="@drawable/my_photo"
-                android:contentDescription="@string/foto_anda"
+                android:contentDescription="@string/photo"
                 android:layout_marginTop="32dp" />
 
             <TextView
@@ -32,7 +32,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/aboutImageView"
                 android:layout_marginTop="16dp"
-                android:text="@string/nama"
+                android:text="@string/my_name"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -43,7 +43,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/aboutNameTextView"
                 android:layout_marginTop="8dp"
-                android:text="@string/email"
+                android:text="@string/my_email"
                 android:textSize="16sp" />
         </RelativeLayout>
     </ScrollView>

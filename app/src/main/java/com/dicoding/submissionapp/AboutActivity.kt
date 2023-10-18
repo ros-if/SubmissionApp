@@ -19,8 +19,8 @@ class AboutActivity : AppCompatActivity() {
         val aboutEmailTextView: TextView = findViewById(R.id.aboutEmailTextView)
 
         aboutImageView.setImageResource(R.drawable.my_photo)
-        aboutNameTextView.text = (getString(R.string.nama))
-        aboutEmailTextView.text = (getString(R.string.email))
+        aboutNameTextView.text = (getString(R.string.my_name))
+        aboutEmailTextView.text = (getString(R.string.my_email))
     }
 
     @Suppress("DEPRECATION")
